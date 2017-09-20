@@ -1,0 +1,110 @@
+#profil {
+  width: 250px;
+  border-radius: 7%;
+  margin-top: 10px;
+}
+
+#movies-card {
+  border: 6px dashed #007991;
+}
+
+.movies-round {
+  border-radius: 10%;
+  padding-bottom: 5px;
+}
+
+ul {
+  font-size: 17px;
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  padding: 0px 20px;
+  padding-left: 0px;
+  margin-top: 10px;
+}
+
+body {
+  background: linear-gradient(to left, #007991, #78ffd6);
+  font-family: 'Muli', sans-serif;
+  color: #65686D;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+h2 {
+  color: #007991;
+  line-height: 4px;
+  font-weight: 300;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 35px;
+  color: #D62246;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #0B4F6C;
+}
+
+a:hover {
+  color: #17BEBB;
+}
+
+p {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+.container {
+  width: 700px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card {
+  text-align: center;
+  background-color: rgba(225, 225, 225, 0.3);
+  padding-bottom: 10px;
+  padding-top: 7px;
+  margin-bottom: 20px;
+  background-color:;
+  border-radius:3%;
+  box-shadow: 3px 5px 5px rgba(15, 15, 15, 0.3);
+}
+
+table {
+  padding: 7px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
