@@ -9,68 +9,88 @@
     <link href="https://fonts.googleapis.com/css?family=Muli|Raleway" rel="stylesheet">
   </head>
   <body>
-    <div class="container">
-      <div class="card">
-        <img src="images/Profil.jpg" id="profil" alt="profil pic">
-        <h1> Paul Webanck </h1>
-        <h4> Student @LeWagon </h4>
-        <p> Student at EdhecBusiness School and currently learning programmation, <strong> merci Le Wagon ! </strong> </p>
-        <p> You can follow me on social networks : </p>
-        <ul>
-          <li>
-            <i class="fa fa-facebook" aria-hidden="true"></i>
-            <a href="https://www.facebook.com/pwebanck" target="_blank">  Facebook</a>
-          </li>
-          <li>
-            <i class="fa fa-instagram" aria-hidden="true"></i>
-            <a href="https://www.instagram.com/paulwbk/?hl=fr" target="_blank">  Instagram</a>
-          </li>
-          <li>
-            <i class="fa fa-github" aria-hidden="true"></i>
-            <a href="https://github.com/paulwebanck" target="_blank">  GitHub</a>
-          </li>
-        </ul>
-      </div>
-      <div class="card" id="movies-card">
-        <h2> My favorite movies </h2>
-        <table>
-          <thead>
-            <tr>
-              <th></th>
-              <th></th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><img src="images/godfather.jpg" class="movies-round" alt="godfather"></td>
-              <td>
-                <h3> <em> The Godfather </em> </h3>
-                <p> When the aging head of a famous crime family decides to transfer his position to one of his subalterns, a series of unfortunate events start happening to the family, and a war begins between all the well-known families leading to insolence, deportation, murder and revenge, and ends with the favorable successor being finally chosen.
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td><img src="images/reservoirdog.jpg" class="movies-round" alt="reservoirdog"></td>
-              <td>
-                <h3> <em> Reservoir Dogs </em> </h3>
-                <p> Six criminals, who are strangers to each other, are hired by a crime boss, Joe Cabot, to carry out a diamond robbery. Right at the outset, they are given false names with the intention that they won't get too close and will concentrate on the job instead. They are completely sure that the robbery is going to be a success.
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td><img src="images/snatch.jpg" class="movies-round" alt="snatch"></td>
-              <td>
-                <h3> <em> Snatch</em></h3>
-                <p> Turkish and his close friend/accomplice Tommy get pulled into the world of match fixing by the notorious Brick Top. Things get complicated when the boxer they had lined up gets badly beaten by Pitt, a 'pikey' ( slang for an Irish Gypsy)- who comes into the equation after Turkish, an unlicensed boxing promoter wants to buy a caravan off the Irish Gypsies.
-                </p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="card">
-        <h2> About this page </h2>
-        <p> This page was created in some seconds... </p>
+    <div id="sidebar">
+      <h1 id="sidetitle"> Summary </h1>
+      <ul>
+        <li>
+          <a href="#summary">Welcome</a>
+        </li>
+        <li>
+          <a href="#favorite-movies">Movies</a>
+        </li>
+        <br>
+        <li>
+          <a href="#help">About</a>
+        </li>
+      </ul>
+    </div>
+    <div id="page-content">
+      <div id="summary"></div>
+      <div class="container">
+        <div class="card">
+          <img src="images/Profil.jpg" id="profil" alt="profil pic">
+          <h1> Paul Webanck </h1>
+          <h4> Student @LeWagon </h4>
+          <p> Student at EdhecBusiness School and currently learning programmation, <strong> merci Le Wagon ! </strong> </p>
+          <p> You can follow me on social networks : </p>
+          <ul class="reseaux">
+            <li>
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+              <a href="https://www.facebook.com/pwebanck" target="_blank">  Facebook</a>
+            </li>
+            <li>
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+              <a href="https://www.instagram.com/paulwbk/?hl=fr" target="_blank">  Instagram</a>
+            </li>
+            <li>
+              <i class="fa fa-github" aria-hidden="true"></i>
+              <a href="https://github.com/paulwebanck" target="_blank">  GitHub</a>
+            </li>
+          </ul>
+        </div>
+        <div id="favorite-movies"></div>
+        <div class="card" id="movies-card">
+          <h2> My favorite movies </h2>
+          <table>
+            <thead>
+              <tr>
+                <th></th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><img src="images/godfather.jpg" class="movies-round" alt="godfather"></td>
+                <td>
+                  <h3> <em> The Godfather </em> </h3>
+                  <p> When the aging head of a famous crime family decides to transfer his position to one of his subalterns, a series of unfortunate events start happening to the family, and a war begins between all the well-known families leading to insolence, deportation, murder and revenge, and ends with the favorable successor being finally chosen.
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td><img src="images/reservoirdog.jpg" class="movies-round" alt="reservoirdog"></td>
+                <td>
+                  <h3> <em> Reservoir Dogs </em> </h3>
+                  <p> Six criminals, who are strangers to each other, are hired by a crime boss, Joe Cabot, to carry out a diamond robbery. Right at the outset, they are given false names with the intention that they won't get too close and will concentrate on the job instead. They are completely sure that the robbery is going to be a success.
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td><img src="images/snatch.jpg" class="movies-round" alt="snatch"></td>
+                <td>
+                  <h3> <em> Snatch</em></h3>
+                  <p> Turkish and his close friend/accomplice Tommy get pulled into the world of match fixing by the notorious Brick Top. Things get complicated when the boxer they had lined up gets badly beaten by Pitt, a 'pikey' ( slang for an Irish Gypsy)- who comes into the equation after Turkish, an unlicensed boxing promoter wants to buy a caravan off the Irish Gypsies.
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="card">
+          <h2> About this page </h2>
+          <div id="help"></div>
+          <p> This page was created in some seconds... </p>
+        </div>
       </div>
     </div>
   </body>
